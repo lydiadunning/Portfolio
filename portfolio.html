@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="./style.css" type="text/css">
+    <script src="./portfolio.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed&family=Roboto+Slab&family=Shippori+Mincho&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>I'm Lydia. Look what I made.</h1>
+  </header>
+  <div class="page-content">
+
+    <div class="description">
+        <p>Lydia Dunning</p>
+        <p>Mostly self-taught programmer starting a career in software development.</p>
+        <div class="contact">
+            <a href="mailto:lydia.dunning@gmail.com" target="_blank">email</a>
+            <a href="https://www.linkedin.com/in/lydia-dunning/" target="_blank">my LinkedIn</a>
+            <a href="https://github.com/lydiadunning?tab=repositories"
+                title="Project links below" target="_blank">my GitHub</a>
+            <a href="https://docs.google.com/document/d/1gY1d_GZ1td_VsDeEksgj0Zb_6ZVAQOruoZZZ42DZy70/edit?usp=sharing" download>download my resume</a>
+        </div>
+    </div>
+
+
+    <div class="project">
+        <a href="https://lydiadunning.github.io/Ditty/" title="Try It">
+            <h2>Ditty</h2>
+        </a>
+        <span>
+            <div id="Ditty-back" class="clickable"> &lt </div>
+            <a href="https://lydiadunning.github.io/Ditty/" title="Try It">
+                <img src="./files/images/Ditty1.png" id="Ditty-images"/>
+            </a>    
+            <div id="Ditty-next" class="clickable"> &gt </div>
+        </span>
+        <div class="description">
+        <div>Ditty is a tool for exploring music composition.
+        Plays music using the web audio API. Generates SVGs to display musical notation.
+        Desktop only.</div>
+        <div class="list">Javascript, HTML, CSS, SVG</div>
+        <a href="https://github.com/lydiadunning/Ditty">Check it out on Github</a>
+        </div>
+
+    </div>
+    <div class="project">
+        <a href="https://iknowthatface.herokuapp.com/" title="Try It">
+            <h2>iknowthatface</h2>
+        </a>
+        <span>
+            <div id="iknow-back" class="clickable"> &lt </div>
+            <a href="https://iknowthatface.herokuapp.com/" title="Try It">
+                <img src="./files/images/iknow1.png" id="iknow-images"/>
+            </a>
+            <div id="iknow-next" class="clickable"> &gt </div>
+        </span>
+        <div class="description">
+            <div>iknowthatface lets a user see what other works an actor has appeared in.
+            It is built with Flask, and accesses The Movie Database API.</div>
+            <div class="list">Python, HTML, CSS</div>
+            <a href="https://github.com/lydiadunning/iknowthatface">Check it out on Github</a>
+
+        </div>
+    </div>
+  </div>
+</body>
+</html>
